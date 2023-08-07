@@ -1,0 +1,282 @@
+<!doctype html>
+<head>
+	  <title>Weather+</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="bootstrap-3.3.7-dist/style.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div class="container-fluid div-affix">
+				<div class="col-sm-9">
+			  		<h1>Weather+</h1>
+			  </div>
+			  <div class="col-sm-3">
+			  		<form class="form-inline">
+			  				<div class="form-group">
+			    							<input type="text" class="form-control" id="search-city" placeholder="Search City">
+			  				</div>
+			  				<button type="submit" class="btn btn-info">Search</button>
+			  		</form>
+			  </div>
+		</div>
+
+		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+		    <div class="container-fluid">
+				    <div class="navbar-header">
+				        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				          <span class="icon-bar"></span>
+				          <span class="icon-bar"></span>
+				          <span class="icon-bar"></span>                        
+				      </button>
+				      <a class="navbar-brand" href="#">Weather</a>
+				    </div>
+		    		<div>
+		      			<div class="collapse navbar-collapse" id="myNavbar">
+					        	<ul class="nav navbar-nav navbar-right">
+						          	<li><a href="#section1">Maps & Weather</a></li>
+						          	<li><a href="#section2">Seasons</a></li>
+						          	<li><a href="#section3">Articles</a></li>
+						          	<li><a href="#section4">Social</a></li>
+						          	<li>
+						          			<a class="dropdown-toggle" role="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">More 
+						          					<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+						          			</a>
+								          	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							    							<li><a href="#">About Us</a></li>
+							    							<li><a href="#">Maps</a></li>
+							  						</ul>
+						          	</li>
+					        	</ul>
+		      			</div>
+		    		</div>
+		  	</div>
+		</nav>    
+	 
+	<!-- section 1 starts -->
+	<div id="section1" class="container-fluid">
+			<div class="container">
+				  <h1 class="color_text map-heading">India Weather Map</h1>
+				  		<div class="col-sm-4">
+				  				<img src="img/india_map.jpg" class="img-responsive" alt="india weather map" >
+						  		<a href="#" class="btn btn-info btn-lg active">
+						  				<span class="glyphicon glyphicon-circle-arrow-right float_right">
+						  						View More Maps
+						  				</span>
+						  		</a>
+				  		</div>
+				  		<div class="col-sm-4">
+				  		<h4 class="color_text text_size">Local Weather</h4>
+				  		<table class="table table-hover">
+	      					<tr>
+	      							<div class="col-sm-8">
+	      									<th>
+	      											<a href="#">Ahemdabad</a>
+	      									</th>
+	      							</div>
+							     		<div class="col-sm-4">
+							     				<th>
+							     						<p class="text_size color_text">29°C
+							     								<img class="table-img" src="img/01.svg">
+							     						</p>
+							     				</th>
+							     		</div>
+	      					</tr>
+	      					<tr>
+	      							<div class="col-sm-8">
+	      									<th>
+	      											<a href="#">Mumbai</a>
+	      									</th>
+	      							</div>
+							     		<div class="col-sm-4">
+							     				<th>
+							     						<p class="text_size color_text">25°C
+							     								<img class="table-img" src="img/02.svg">
+							     						</p>
+							     				</th>
+							     		</div>
+	      					</tr>
+	      					<tr>
+	      							<div class="col-sm-8">
+	      									<th>
+	      											<a href="#">Sri Nagar</a>
+	      									</th>
+	      							</div>
+							     		<div class="col-sm-4">
+							     				<th>
+							     						<p class="text_size color_text">21°C
+							     								<img class="table-img" src="img/03.svg">
+							     						</p>
+							     				</th>
+							     		</div>
+	      					</tr>
+	      					<tr>
+	      							<div class="col-sm-8">
+	      									<th>
+	      											<a href="#">New Delhi</a>
+	      									</th>
+	      							</div>
+							     		<div class="col-sm-4">
+							     				<th>
+							     						<p class="text_size color_text">32°C
+							     								<img class="table-img" src="img/04.svg">
+							     						</p>
+							     				</th>
+							     		</div>
+	      					</tr>
+				  		</table>				
+				 	</div>
+				 	<div class="col-sm-4">
+				 			<h4 class="color_text text_size">Related Videos</h4>
+				 			<div class="col-sm-6">
+									<iframe width="100%" src="https://www.youtube.com/embed/_Y92_6BC1PQ" frameborder="0"
+									allowfullscreen></iframe>
+							</div>
+							<div class="col-sm-6">
+									<iframe width="100%" src="https://www.youtube.com/embed/5c8LrcmW2Dw" frameborder="0"
+									allowfullscreen></iframe>
+							</div>
+							<div class="col-sm-6">
+									<iframe width="100%" src="https://www.youtube.com/embed/WXoaQAM4QSM" frameborder="0"
+									allowfullscreen></iframe>
+							</div>
+							<div class="col-sm-6">
+									<iframe width="100%" src="https://www.youtube.com/embed/pK8NTGV1vT4" frameborder="0"
+									allowfullscreen></iframe>
+							</div>
+				 	</div>
+	 		</div>
+	</div>
+	<!-- Section 1 ends -->
+	<!-- Section 2 start -->
+	<div id="section2" class="container-fluid">
+			<h1 class="color_text bottom_pad">Seasons <small>some seasons</small> </h1>
+			<div class="row">
+	        <div class="col-sm-6 col-md-4">
+	            <div class="thumbnail">
+	                <img src="img/warm.jpg" alt="Summer">
+	                <div class="caption">
+	                    <h3>Summer</h3>
+	                    <p class="text-justify">
+	                        Summer is the hottest of the four temperate seasons, falling between spring and autumn. At the summer solstice, the days are longest and the nights are shortest, with day-length decreasing as the season progresses after the solstice. The date of the beginning of summer varies according to climate, tradition and culture. When it is summer in the Northern Hemisphere, it is winter in the Southern Hemisphere, and vice versa.
+	                        <a class="cursor-pointer" data-toggle="collapse" data-target="#summer-1">More...</a>
+	                        <div id="summer-1" class="collapse">
+	                            Summer is the hottest of the four temperate seasons, falling between spring and autumn. At the summer solstice, the days are longest and the nights are shortest, with day-length decreasing as the season progresses after the solstice. The date of the beginning of summer varies according to climate, tradition and culture. When it is summer in the Northern Hemisphere, it is winter in the Southern Hemisphere, and vice versa.
+	                        </div>
+	                    </p>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="col-sm-6 col-md-4">
+	            <div class="thumbnail">
+	                <img src="img/winter.jpg" alt="Winter">
+	                <div class="caption">
+	                    <h3>Winter</h3>
+	                    <p class="text-justify">
+	                        Winter is the coldest season of the year in polar and temperate climates, between autumn and spring. Winter is caused by the axis of the Earth in that hemisphere being oriented away from the Sun. Different cultures define different dates as the start of winter, and some use a definition based on weather. When it is winter in the Northern Hemisphere, it is summer in the Southern Hemisphere, and vice versa. The coldest season of the year.
+	                        <a class="cursor-pointer" data-toggle="collapse" data-target="#winter-1">More...</a>
+	                        <div id="winter-1" class="collapse">
+	                            Summer is the hottest of the four temperate seasons, falling between spring and autumn. At the summer solstice, the days are longest and the nights are shortest, with day-length decreasing as the season progresses after the solstice. The date of the beginning of summer varies according to climate, tradition and culture. When it is summer in the Northern Hemisphere, it is winter in the Southern Hemisphere, and vice versa.
+	                        </div>
+	                    </p>
+	                </div>
+	            </div>
+	        </div>
+
+	        <div class="col-sm-6 col-md-4">
+	            <div class="thumbnail">
+	                <img src="img/autumn.jpg" alt="Autumn">
+	                <div class="caption">
+	                    <h3>Autumn</h3>
+	                    <p class="text-justify">
+	                        Autumn (British English) or fall (American English) is one of the four temperate seasons. Autumn marks the transition from summer to winter, in September (Northern Hemisphere) or March (Southern Hemisphere), when the arrival of night becomes noticeably earlier and the arrival of day becomes noticeably later, and the temperature cools down considerably. One of its main features is the shedding of leaves from deciduous trees.
+	                        <a class="cursor-pointer" data-toggle="collapse" data-target="#autumn-1">More...</a>
+	                        <div id="autumn-1" class="collapse">
+	                            Summer is the hottest of the four temperate seasons, falling between spring and autumn. At the summer solstice, the days are longest and the nights are shortest, with day-length decreasing as the season progresses after the solstice. The date of the beginning of summer varies according to climate, tradition and culture. When it is summer in the Northern Hemisphere, it is winter in the Southern Hemisphere, and vice versa.
+	                        </div>
+	                    </p>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+			
+	</div>
+	<!-- section 2 ends -->
+
+	<!-- section 3 starts  -->
+	<div id="section3" class="container-fluid">
+			<div class="container">
+					<div class="media">
+	  					<div class="media-left media-middle">
+	    						<a href="#">
+	      							<img src="img/nagpur.jpg" alt="nagpur.jpg" class="img-thumbnail media-object img-responsive" >
+	    						</a>
+	  					</div>
+	  					<div class="media-body">
+	    						<h1 class="media-heading">Most Hottest City in India</h1>
+	    						<blockquote class="text-justify">
+	                		Nagpur if seen on a map appears to be at the very center of the country. It is perhaps the most landlocked area of the country and has a very high thermal quotient as a result of the highly heated land mass. As a result, it is the hottest city of the country today. Nagpur is located in Vidarbha, eastern region of the state of Maharashtra. It is one of the hottest cities in India. The temperatures in Nagpur frequently cross over 44 degrees and remain there for more than 2 weeks at a stretch. Nagpur is so hot and dry that evaporation coolers and desert coolers were officially given the name ‘Nagpur Coolers’. The highest recorded temperature in the city was 48 °C on May 19, 2015, while the lowest was 3.9 °C.
+	            		</blockquote>	
+	  					</div>
+					</div>
+			</div>
+			<div class="container bottom_pad">
+					<div class="media">
+	  					<div class="media-body">
+			    				<h1 class="media-heading">Most Coolest City in India</h1>
+			    				<blockquote class="text-justify blockquote blockquote-reverse">
+			                The Dras valley starts from the base of the Zojila pass, the Himalayan gateway to Ladakh. For centuries, its inhabitants have been known to have negotiated this formidable pass even during the riskiest period (in late autumn or early spring, when the whole sector remains snow-bound and is subject to frequent snow storms) to transport trading merchandise and to help stranded travellers traverse the pass. They thereby established a monopoly over porterage during the heyday of the pan-Asian trade. A hardy people enduring with fortitude the harshness of the valley's winter, the inhabitants of Dras can well be described as the guardians of Ladakh's gateway.
+			            </blockquote>	
+			  			</div>
+	  					<div class="media-right media-middle">
+									<a href="#">
+			  							<img src="img/drass.jpg" alt="drass" class="img-thumbnail media-object img-responsive" >
+									</a>
+							</div>
+	  			</div>
+			</div>
+	</div>
+	<!-- section 3 ends -->
+	<!-- footer starts -->
+	<footer>
+			<div class="container-fluid">
+					<div class="col-sm-3">
+							<h2 class="footer-text-color"><strong>Weather+</strong></h2>
+					</div>
+					<div class="col-sm-2 footer-text-color">
+							<h4><a href="#"> Get started</a></h4>
+							<h4><a href="#">Home</a></h4>
+							<h4><a href="#">Downloads</a></h4>	
+					</div>
+					<div class="col-sm-2 footer-text-color">
+							<h4><a href="#">About us</a></h4>
+							<h4><a href="#">Company</a></h4>
+							<h4><a href="#">Information</a></h4>
+							<h4><a href="#">Reviews</a></h4>	
+					</div>
+					<div class="col-sm-2 footer-text-color">
+							<h4><a href="#">Support</a></h4>
+							<h4><a href="#">FAQ</a></h4>
+							<h4><a href="#">Help Desk</a></h4>
+							<h4><a href="#">Forums</a></h4>	
+					</div>
+					<div class="col-sm-3 footer-text-color">
+							<h4><strong>Follow us on social media</strong></h4>
+							<ul class="list-inline">
+									<li><a href="www.twitter.com"><img src="img/icons/twitter.png" alt="TWITTER"></a></li>
+									<li><a href="www.facebook.com"><img src="img/icons/facebook.png" alt="facebook"></a></li>
+									<li><a href="www.linkedin.com"><img src="img/icons/linkedin.png" alt="linkedin"></a></li>
+									<li><a href="www.github.com"><img src="img/icons/github.png" alt="github"></a></li>
+							</ul>
+					</div>
+			</div>
+	</footer>
+
+<!-- footer ends -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+body {
+		position: relative; 
+}
+
+.affix {
+		top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.navbar {
+		margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+		position: relative;
+    top: 50px;
+}
+	  
+#section1 {
+		padding-top:50px; 
+		padding-bottom: 50px;
+	  height:auto; color: #fff; 
+	  background-color: #f4f4f0;
+}
+
+#section2 {
+		padding-top:50px;
+		height:auto; color: #fff; 
+		background-color: #f4f4f0;
+}
+
+#section3 {
+		padding-top:50px;
+		height:auto; color: #fff; 
+		background-color: #ff9800;
+}
+
+.color_text {
+		color: black;
+}
+
+.text_size {
+		font-size: 30px;
+}
+
+table a {
+		font-size: 20px;
+}
+
+.table-img {
+		float: right;
+		width: 65px;
+}
+
+.bottom_pad {
+		padding-bottom: 30px;
+}
+
+.bottom_pad-sec {
+		padding-bottom: 50px;
+}
+
+
+.text-justify {
+		text-align: justify;
+}
+
+.cursor-pointer {
+		cursor: pointer;
+}
+
+footer {
+		background-color: #3c3d41;
+		padding-top: 40px;
+		padding-bottom: 50px;
+    margin: 20px 0;
+}
+
+.footer-text-color {
+		color: white;
+}
+
+footer a:hover {
+		opacity: .5;
+		color: white;
+}
+footer a {
+		color: white;
+}
+
+.div-affix {
+		background-color: #F44336;
+		color: #fff;
+		height: 100px;
+}
+
+form div { 
+		padding-top: 30px;
+}
+
+form button {
+		margin-top: 30px;
+}
+
+.map-heading {
+		padding-left: 20px;
+}
